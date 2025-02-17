@@ -38,6 +38,4 @@ def test_put_request():
     response = requests.get(url)
     print(response.status_code)
    # json_data = response.json()
-   # assert json_data["title"] == payload["title"]
-    #print(json_data["title"])
 
